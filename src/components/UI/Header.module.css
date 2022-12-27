@@ -1,0 +1,11 @@
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "Faster One", cursive;
+  color: blue;
+}

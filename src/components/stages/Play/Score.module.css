@@ -1,0 +1,32 @@
+.score {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.player {
+  padding: 2px 4px;
+  /* background-color: red; */
+  /* color: #fff; */
+  font-weight: 700;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 1.6rem;
+}
+
+.playerScore {
+  border: 1px solid #000;
+  padding: 1px 0px;
+}
+
+.playerScoreNumber {
+  font-size: 1.6rem;
+  /* border: 1px solid #000; */
+  padding: 1px 5px;
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+}

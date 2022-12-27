@@ -1,0 +1,42 @@
+.build {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.buildFieldsContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 4rem;
+}
+
+.buildFieldContainer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.btnPrimary {
+  composes: btnPrimary from "../../../globalStyles/button.module.css";
+}
+.mb {
+  margin-bottom: 2rem;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.action {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}

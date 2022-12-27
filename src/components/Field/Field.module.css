@@ -1,0 +1,26 @@
+.fieldContainer {
+  display: grid;
+  grid-template-columns: 20px 200px;
+  grid-template-rows: 200px 20px;
+}
+
+.rowLabel {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.colLabel {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1.4rem;
+  grid-column-start: 2;
+}
+
+.field {
+  display: flex;
+  flex-flow: row wrap;
+  width: 20rem;
+  background-image: linear-gradient(blue, azure);
+  /* height: 100vh; */
+}

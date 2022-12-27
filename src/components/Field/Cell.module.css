@@ -1,0 +1,28 @@
+.cell {
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.miss {
+  background-color: lime;
+}
+
+.ship {
+  background-color: orange;
+}
+
+.dead {
+  background-color: red;
+}
+
+.notAllowed {
+  background-color: lightgray;
+}
+
+.cell:hover {
+  /* background-color: yellow; */
+}

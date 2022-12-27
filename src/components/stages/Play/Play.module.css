@@ -1,0 +1,36 @@
+.fieldsContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.fieldContainer {
+  margin: 0 1rem;
+}
+
+.turnInfo {
+  text-align: center;
+}
+
+.turnInfo span {
+  margin-left: 1rem;
+  border-radius: 5px;
+  padding: 1px 8px;
+  background-color: red;
+  color: #fff;
+}
+
+.info {
+  border-radius: 2rem;
+  text-transform: uppercase;
+}
+
+.btn {
+  composes: btnPrimary from "../../../globalStyles/button.module.css";
+}
+
+.newGameBox {
+  margin-top: 2rem;
+  text-align: center;
+}

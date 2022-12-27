@@ -1,0 +1,13 @@
+.fields {
+  width: 50rem;
+  /* height: 30rem; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+}

@@ -1,0 +1,4 @@
+.ship {
+  display: flex;
+  flex-flow: row nowrap;
+}

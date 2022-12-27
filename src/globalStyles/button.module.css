@@ -1,0 +1,16 @@
+.btn {
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.btnPrimary {
+  composes: btn;
+  background-color: #fd841f;
+}
+
+.btnPrimary:hover {
+  background-color: #e14d2a;
+}

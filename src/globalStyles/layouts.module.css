@@ -1,0 +1,22 @@
+.dFlex {
+  display: flex;
+}
+
+.flex-row {
+  flex-flow: row;
+}
+.flex-col {
+  flex-flow: column;
+}
+
+.items-center {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flexCenter {
+  composes: dFlex alignCenter;
+}
